@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>مطاعم عبدو</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            direction: rtl;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #c8102e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            color: #c8102e;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .menu-item {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .menu-item h3 {
+            margin: 10px 0;
+        }
+
+        .about, .contact {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #c8102e;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .whatsapp-icon {
+            color: #25D366; /* لون أخضر واتساب */
+            font-size: 50px; /* حجم الأيقونة */
+            transition: color 0.3s;
+        }
+        .whatsapp-icon:hover {
+            color: #128C7E; /* لون أغمق عند التمرير */
+        }
+        body{
+            background-attachment: fixed;
+            background-repeat:no-repeat;
+        }
+    </style>
+</head>
+<body style="background: url(image-1.jpg);">
+    <header>
+        <h1>مطاعم عبدو</h1>
+        <p>تذوق الأصالة مع كل قضمة!</p>
+    </header>
+<center>
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#menu">القائمة</a>
+        <a href="#about">عن المطعم</a>
+        <a href="#contact">تواصل معنا</a>
+    </nav>
+</center>
+    <section id="menu" class="section">
+        <h2 style="color: white;">قائمة الطعام</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="/سسس.jpg" alt="وجبة شاورما">
+                <h3>شاورما دجاج</h3>
+                <p>شاورما دجاج طازجة مع صوص الثوم والخبز العربي.</p>
+                <p><strong>السعر:</strong> 25 جنيه<del>50ج</del></25></p>
+            </div>
+            <div class="menu-item">
+                <img src="/image-3.jpg" alt="وجبة كباب">
+                <h3>كباب مشوي</h3>
+                <p>كباب لحم مشوي مع أرز وسلطة طحينة.</p>
+                <p><strong>السعر:</strong> 50 جنيه<del>100ج</del></p>
+            </div>
+            <div class="menu-item">
+                <img src="/image-2.jpg" alt="بيتزا">
+                <h3>بيتزا مارجريتا</h3>
+                <p>بيتزا طازجة بالجبن والطماطم وأوراق الريحان.</p>
+                <p><strong>السعر:</strong> 40 جنيه<del>85ج</del></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>عن مطاعم عبدو</h2>
+        <p>مطاعم عبدو هي سلسلة مطاعم تقدم أشهى المأكولات العربية والشرقية بجودة عالية وأسعار تنافسية. تأسست عام 2005، ونحن نفخر بتقديم تجربة طعام لا تُنسى لعملائنا في كل فرع من فروعنا.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>تواصل معنا</h2>
+        <p>📍 العنوان: شارع الرئيسي، القاهرة، مصر</p>
+        <p>📞 الهاتف: 01007192265</p>
+        <p>📧 البريد الإلكتروني: saifabdelrahman977@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>تابعنا على:</p>
+        <a href="#">فيسبوك</a>
+        <a href="#">إنستغرام</a>
+        <a href="#">تويتر</a>
+        <p>&copy; 2025 مطاعم عبدو. جميع الحقوق محفوظة.</p>
+    </footer>
+    <a href="https://wa.me/+201007192265?text=مرحبا، أريد الاستفسار عن خدماتكم" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp whatsapp-icon"></i>
+    </a>
+</body>
+</html>
